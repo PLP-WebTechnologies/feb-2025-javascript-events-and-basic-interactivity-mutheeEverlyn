@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Tech Services</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">TechSolutions</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Landing Section -->
+  <header class="header" id="home">
+    <h1>Welcome to TechSolutions</h1>
+    <p>Empowering your digital future with modern solutions.</p>
+    <button id="scrollToContact">Get in Touch</button>
+  </header>
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <h2> My Tech Services</h2>
+    <p>
+      I offer a wide range of tech services including web development, app development, UI/UX design,
+      and cloud integration. I specialize in modern JavaScript frameworks like React and Vue, and backends like Node.js or Django.
+    </p>
+    <p>
+      Whether you’re a startup or a growing business, I’ll help you build scalable, responsive, and secure digital solutions.
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="formMessage" class="form-message"></p>
+  </section>
+ <footer>
+    <p>&copy; 2025 Everlyn's TechSolutions. All rights reserved.</p>
+ </footer>
+  <script src="script.js"></script>
+</body>
+</html>
